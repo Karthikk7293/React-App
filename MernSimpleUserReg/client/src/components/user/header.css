@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar-row{
+    background: linear-gradient(rgba(201, 201, 201, 0.1),rgba(0, 0, 0, 0.1));
+    backdrop-filter: blur(.5rem);
+    position: fixed;
+    z-index: 1000;
+}
+
+.nav-link{
+font-weight: 600;
+
+    color: rgb(31 123 179);
+}
+.nav-link:hover{
+    color: rgb(68, 20, 20);
+}
+.search-bar{
+    width: 60%;
+    border: none;
+    outline: none;
+    padding-left: 1rem;
+    border-radius: 5px;
+}
+.logo{
+    font-family: 'Bangers', cursive;
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(124, 28, 28);
+}

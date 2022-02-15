@@ -1,0 +1,41 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row{
+    justify-content: center;
+    align-items: center;
+}
+.form-head h3{
+    font-weight: 300;
+}
+.input-field input{
+    margin-left: 2rem;
+
+}
+.input-field label{
+    margin-left: 1rem;
+}
+
+
+label{
+    color: rgb(10, 23, 44);
+}
+input{
+    outline: none;
+    padding: 5px;
+    color: rgb(10, 23, 44);
+    border: none;
+    border-bottom: 1px solid rgba(86, 143, 230, 0.575);
+}
+.submit-button{
+    color: #fff;
+    background: rgba(4, 40, 70, 0.842);
+   
+    border: none;
+}
+.submit-button:hover{
+    color: #fff;
+    background: rgba(20, 108, 241, 0.575);
+}

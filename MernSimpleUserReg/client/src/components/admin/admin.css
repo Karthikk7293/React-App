@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.add-admin{
+    text-decoration: none;
+    background: rgba(2, 30, 73, 0.719);
+    color: #fff;
+}
+.add-admin:hover{
+    text-decoration: none;
+    background: rgba(53, 165, 146, 0.719);
+    color: #fff;
+}
+.search-button{
+    text-decoration: none;
+    background: rgba(28, 75, 145, 0.719);
+    color: #fff;
+    border: none;
+}
+.search-button:hover{
+    text-decoration: none;
+    background: rgba(60, 118, 206, 0.719);
+    color: #fff;
+    border: none;
+}
+.buttons1,.buttons2{
+    color: #fff;
+    border: none;
+    border-radius: 0;
+}
+.buttons1{
+    background: rgba(28, 119, 255, 0.719);
+}
+.buttons2{
+    background: rgba(233, 47, 0, 0.719);
+
+}
+.search-bar{
+    width: 18rem;
+    border: 1px solid rgb(206, 205, 205);
+    border-radius: 0;
+}

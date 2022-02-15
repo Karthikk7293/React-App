@@ -1,0 +1,32 @@
+.card-row{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    }
+    
+    .card-row::-webkit-scrollbar{
+        display: none;
+    }
+    img{
+        width: 70%;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    .poster{
+        min-width: 14rem;
+        text-align: center;
+    }
+    .view-button{
+        width: 8rem;
+        height: 2.5rem;
+        background: rgba(4, 123, 235, 0.877);
+        border: none;
+        outline: none;
+        color: #fff;
+        align-items: center;
+        text-decoration: none;
+        border-radius: 3px;
+    }
+    .view-button:hover{
+        background: rgb(124, 28, 28);
+        color: #fff;
+    }
